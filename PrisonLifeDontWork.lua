@@ -7,6 +7,7 @@ else
 end
 isBadGuard()
 Status()
+attribute = nil
 if Item == rem then
     local Item = "Remington 870"
     if a == true then
