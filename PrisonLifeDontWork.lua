@@ -17,17 +17,13 @@ function BadGuard()
 end
 BadGuard()
 --]]
-if Pl.Status.toollsEquipped == true then
-    local a = true
+if Pl.Character.Item.Equipped == true then
+    a = true
 else
-    local a = false
+    a = false
+    print("u didnt equip ur weapon to change values in module")
 end
 print(a)
-if a == true then
-    attribute = Pl.Backpack.Item.GunStates
-else
-    attribute = Pl.Character.Item.GunStates
-end
 print(attribute)
 local isModule = attribute
 local DataChange = require(isModule)
