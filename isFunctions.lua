@@ -9,8 +9,7 @@ function isBadGuard()
     if Pl.Status.isBadGuard == true then
         Pl.Status.isBadGuard = false
     else
-        game:IsLoaded()
-        print("just ignore")
+        print("ignored")
     end
 end
 function requireData()
