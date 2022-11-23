@@ -9,7 +9,6 @@ local t = "https://"
 loadstring(game:HttpGet(t.."raw.githubusercontent.com/RawLunaHub/Functions/main/isFunctions.lua"))()
 isBadGuard()
 Status()
-end
 if a == true then
     attribute = Pl.Backpack.Item.GunStates
 else
