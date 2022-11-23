@@ -21,7 +21,7 @@ else
     a = false
 end
 if a == true then
-    attribute = Pl.Backpack..GunStates
+    attribute = Pl.Backpack.Item.GunStates
 else
     attribute = Pl.Character.Item..GunStates
 end
