@@ -13,6 +13,6 @@ function isBadGuard()
         print("just ignore")
     end
 end
-function requireData(i,v)
+function requireData()
     local DataChange = require(Data)
 end
