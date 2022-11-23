@@ -1,13 +1,14 @@
 a = false
-local t = "https://"
-if t == "https://" then
-    loadstring(game:HttpGet(t.."raw.githubusercontent.com/RawLunaHub/Functions/main/isFunctions.lua"))()
-else
-    warn("[DEBUG] Error: t not a https:// ")
+attribute = nil
+for i, object in pairs(Pl.Character:GetDescendants()) do
+    if object:IsA("Tool") then
+        Item = object.Name
+    end
 end
+local t = "https://"
+loadstring(game:HttpGet(t.."raw.githubusercontent.com/RawLunaHub/Functions/main/isFunctions.lua"))()
 isBadGuard()
 Status()
-attribute = nil
 if Item == rem then
     local Item = "Remington 870"
     if a == true then
@@ -25,4 +26,4 @@ else
 end
 local isModule = Pl.attribute
 local Data = isModule
-requireData()
+local DataChange = require(Data)
