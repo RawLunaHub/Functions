@@ -1,4 +1,4 @@
-
+local Pl = game.Players.LocalPlayer
 --[[
 for i, object in pairs(Pl.Character:GetDescendants()) do
     if object:IsA("Tool") then
