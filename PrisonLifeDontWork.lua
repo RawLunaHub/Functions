@@ -1,4 +1,4 @@
-a = false
+
 --[[
 for i, object in pairs(Pl.Character:GetDescendants()) do
     if object:IsA("Tool") then
@@ -18,9 +18,9 @@ end
 BadGuard()
 --]]
 if Pl.Status.toollsEquipped == true then
-    a = true
+    local a = true
 else
-    a = false
+    local a = false
 end
 print(a)
 if a == true then
