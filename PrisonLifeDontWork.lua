@@ -24,4 +24,4 @@ else
 end
 local isModule = Pl.attribute
 local Data = isModule
-requireData(i,v)
+requireData()
