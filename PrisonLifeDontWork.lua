@@ -20,6 +20,7 @@ if Pl.Status.toollsEquipped == true then
 else
     a = false
 end
+print(a)
 if a == true then
     attribute = Pl.Backpack.Item.GunStates
 else
