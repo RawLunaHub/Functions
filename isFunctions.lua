@@ -12,6 +12,3 @@ function isBadGuard()
         print("ignored")
     end
 end
-function requireData()
-    local DataChange = require(Data)
-end
