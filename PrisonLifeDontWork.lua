@@ -18,7 +18,6 @@ else
     attribute = Pl.Character.Item..GunStates
 end
 local isModule = Pl.attribute
-local Data = isModule
-local DataChange = require(Data)
+local DataChange = require(isModule)
 isBadGuard()
 print("[TEST]")
