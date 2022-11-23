@@ -24,7 +24,6 @@ else
     print("u didnt equip ur weapon to change values in module")
 end
 print(a)
-print(attribute)
-local isModule = attribute
+local isModule = Pl.Character.Item.GunStates
 local DataChange = require(isModule)
 print("[TEST]")
