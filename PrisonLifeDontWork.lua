@@ -3,6 +3,7 @@ attribute = nil
 for i, object in pairs(Pl.Character:GetDescendants()) do
     if object:IsA("Tool") then
         Item = object.Name
+        print(object.Name)
     end
 end
 local t = "https://"
