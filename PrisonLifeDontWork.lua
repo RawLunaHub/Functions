@@ -11,9 +11,9 @@ isBadGuard()
 Status()
 end
 if a == true then
-    attribute = Pl.Backpack["..Item.."].GunStates
+    attribute = Pl.Backpack.Item.GunStates
 else
-    attribute = Pl.Character["..Item.."].GunStates
+    attribute = Pl.Character.Item..GunStates
 end
 local isModule = Pl.attribute
 local Data = isModule
