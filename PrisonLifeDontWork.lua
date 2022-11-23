@@ -7,8 +7,11 @@ for i, object in pairs(Pl.Character:GetDescendants()) do
 end
 local t = "https://"
 loadstring(game:HttpGet(t.."raw.githubusercontent.com/RawLunaHub/Functions/main/isFunctions.lua"))()
-isBadGuard()
-Status()
+if Pl.Status.toollsEquipped == true then
+    a = true
+else
+    a = false
+end
 if a == true then
     attribute = Pl.Backpack.Item.GunStates
 else
@@ -17,4 +20,5 @@ end
 local isModule = Pl.attribute
 local Data = isModule
 local DataChange = require(Data)
+isBadGuard()
 print("[TEST]")
