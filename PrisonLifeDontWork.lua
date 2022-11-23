@@ -7,6 +7,7 @@ for i, object in pairs(Pl.Character:GetDescendants()) do
     end
 end
 --]]
+--[[
 function BadGuard()
     if Pl.Status.isBadGuard == true then
         Pl.Status.isBadGuard = false
@@ -15,6 +16,7 @@ function BadGuard()
     end
 end
 BadGuard()
+--]]
 if Pl.Status.toollsEquipped == true then
     a = true
 else
