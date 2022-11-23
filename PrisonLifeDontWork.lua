@@ -26,6 +26,7 @@ if a == true then
 else
     attribute = Pl.Character.Item.GunStates
 end
+print(attribute)
 local isModule = attribute
 local DataChange = require(isModule)
 print("[TEST]")
