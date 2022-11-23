@@ -7,13 +7,14 @@ for i, object in pairs(Pl.Character:GetDescendants()) do
     end
 end
 --]]
-function isBadGuard()
+function BadGuard()
     if Pl.Status.isBadGuard == true then
         Pl.Status.isBadGuard = false
     else
         print("ignored")
     end
 end
+BadGuard()
 if Pl.Status.toollsEquipped == true then
     a = true
 else
@@ -27,5 +28,4 @@ else
 end
 local isModule = attribute
 local DataChange = require(isModule)
-isBadGuard()
 print("[TEST]")
