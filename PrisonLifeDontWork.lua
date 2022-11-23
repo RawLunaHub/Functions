@@ -1,5 +1,4 @@
 a = false
-attribute = nil
 --[[
 for i, object in pairs(Pl.Character:GetDescendants()) do
     if object:IsA("Tool") then
@@ -26,7 +25,7 @@ if a == true then
 else
     attribute = Pl.Character.Item..GunStates
 end
-local isModule = Pl.attribute
+local isModule = attribute
 local DataChange = require(isModule)
 isBadGuard()
 print("[TEST]")
