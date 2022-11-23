@@ -8,8 +8,13 @@ for i, object in pairs(Pl.Character:GetDescendants()) do
     end
 end
 --]]
-local t = "https://"
-loadstring(game:HttpGet(t.."raw.githubusercontent.com/RawLunaHub/Functions/main/isFunctions.lua"))()
+function isBadGuard()
+    if Pl.Status.isBadGuard == true then
+        Pl.Status.isBadGuard = false
+    else
+        print("ignored")
+    end
+end
 if Pl.Status.toollsEquipped == true then
     a = true
 else
