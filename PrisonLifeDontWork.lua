@@ -18,12 +18,11 @@ end
 BadGuard()
 --]]
 if Pl.Character.Item.Equipped == true then
-    a = true
+    print("Module Check..")
+    local isModule = Pl.Character.Item.GunStates
+    local DataChange = require(isModule)
 else
-    a = false
     print("u didnt equip ur weapon to change values in module")
 end
 print(a)
-local isModule = Pl.Character.Item.GunStates
-local DataChange = require(isModule)
 print("[TEST]")
